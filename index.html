@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>minha pagina</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top"> <!--Criando uma barra de navegação , 
+        estou informando que ela sera lg large=grande e light que ela vai ser clara -->
+        <a class="navbar-brand href="#">
+            <img src="img/digital.png" width="200px" height="60px">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">  <!--ul , navbar-nav estilisa a lista não ordenada e ja deixa tudo na horizontal-->
+                <li class="nav-item"> <!--nav-item Define que aquele Elemento é um item da lista-->
+                    <a class="nav-link" href="#quemsomos">Quem somos</a> <!--nav link Coloca um efeito no link ao passa o mouse por cima-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="quemsomos">
+        <div class="container-fluid text-center quem-somos margin"> <!--container ja vai vim com espaçamento pré-definidos-->
+        <!-- e a class="container-fluid" ele permite que usemos o espaçamento completo-->
+        <!--text center permite que o texto fique centralizado-->
+            <h2 class="cor_do_texto"><strong>Quem Somos ?</strong></h2>
+            <img src="img/eu.jpg" class="rounded-circle imgquemsomos"  width="400px" height="400px">
+            <h3 class="cor_do_texto"><strong>Somos um time  comprometido com os resultadoss</strong></h3>
+    </div>
+    </section>
+    <section id="parceiros">
+        <div class="container-fluid text-center parceiro">
+            <h3><strong>Parceiros</strong></h3>   
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 parceiro">
+                        <img src="img/digital.png" width="100%">
+                    </div>
+                    <div class="col-lg-4 parceiro">
+                        <img src="img/digital.png" width="100%">
+                    </div>
+                    <div class="col-lg-4 parceiro">
+                        <img src="img/digital.png" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container-fluid text-center servico">
+            <h3><strong>Serviços</strong></h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p class="texto_servicos">Software aplicativo, aplicativo (português brasileiro) ou aplicação (português europeu) (abreviadamente, app), é o software projetado para executar um grupo de funções, tarefas ou atividades coordenadas para o benefício do usuário.</p>
+                        <img src="img/app.jpg" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="texto_servicos">web site é um conjunto de páginas web, isto é, de hipertextos acessíveis geralmente pelo protocolo HTTP ou pelo HTTPS na internet. O conjunto de todos os sítios públicos existentes compõe a World Wide Web. São alcançadas a partir de um URL que aponta para a página principal e, geralmente, residem no mesmo diretório de um servidor. As páginas são organizadas dentro do sítio numa hierarquia observável no URL.</p>
+                        <img src="img/site.jpg" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="texto_servicos">Java é o ambiente computacional, ou plataforma, criada pela empresa estadunidense Sun Microsystems, e vendida para a Oracle depois de alguns anos. A plataforma permite desenvolver programas utilizando a linguagem de programação Java. Uma grande vantagem da plataforma é a de não estar presa a um único sistema operacional ou hardware, pois seus programas rodam através de uma máquina virtual que pode ser emulada em qualquer sistema que suporte a linguagem C++.[1][2]</p>
+                        <img src="img/desktop.jpg" width="100%">
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid bg-footer text-center magin">
+        <p>Desenvolvido por Lucas Daniel.</p>
+    </footer>
+</body>
+</html>
